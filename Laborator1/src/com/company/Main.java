@@ -21,7 +21,7 @@ public class Main {
         n+=0xFF;
         n*=6;
         //Step 5
-        int sum = 0; // Va memora suma cifrelor
+        int sum; // Va memora suma cifrelor
         while(n / 10 != 0) {
             sum = 0;
             while (n != 0) {
@@ -42,7 +42,6 @@ public class Main {
         long startTime = System.nanoTime(); //Inceperea cronometrului
         int n = Integer.parseInt(args[0]);
         int p = Integer.parseInt(args[1]);
-        int m = args[2].length();
         String[] array = new String[n];
         Random rand = new Random();
 
@@ -76,7 +75,7 @@ public class Main {
         for(int i = 0; i < n; i++) { //Afisam matricea
             for (int j = 0; j < n; j++)
                 System.out.print(matrix[i][j] + " ");
-            System.out.println("");
+            System.out.println();
         }
 
 
