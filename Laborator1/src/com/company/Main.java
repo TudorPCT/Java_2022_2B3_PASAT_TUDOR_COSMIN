@@ -5,8 +5,8 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         Main lab = new Main();
-        //lab.compulsory();
-        lab.homework(args);
+        lab.compulsory();
+       // lab.homework(args);
     }
     void compulsory() {
         //Step 1
