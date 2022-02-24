@@ -39,47 +39,48 @@ public class Main {
             System.exit(-1);
         }
 
-        long startTime = System.nanoTime();
+        long startTime = System.nanoTime(); //Inceperea cronometrului
         int n = Integer.parseInt(args[0]);
         int p = Integer.parseInt(args[1]);
         int m = args[2].length();
         String[] array = new String[n];
         Random rand = new Random();
 
-        StringBuilder alphabet = new StringBuilder();
-        for(int i = 2; i < args.length; i++)
+        StringBuilder alphabet = new StringBuilder(); //construim alfabetul din argumente
+        for(int i = 2; i < args.length; i++) {
             alphabet.append(args[i].charAt(0));
+        }
 
         for(int i = 0; i < n; i++) {
             StringBuilder word = new StringBuilder();
-            for (int j = 0; j < p; j++) {
+            for (int j = 0; j < p; j++) { //Construim cuvantul i folosind exact p litere alese random din alfabetul dat
                 int k = rand.nextInt(alphabet.length());
                 word.append(alphabet.charAt(k));
             }
-            array[i] = word.toString();
+            array[i] = word.toString(); //Adaugam noul cuvant in array
             System.out.println("Cuvantul " + i + ": " + array[i]);
         }
 
-        Boolean[][] matrix = new Boolean[n][n];
+        Boolean[][] matrix = new Boolean[n][n]; //Matricea vecinilor
         for(int i = 0; i < n; i++)
             for(int j = 0; j < n; j++){
                 matrix[i][j] = matrix[j][i] = false;
-                if(i == j)
+                if(i == j) //Un cuvant nu poate fi vecin cu el insusi
                     continue;
-                for(int t = 0; t < p; t++)
+                for(int t = 0; t < p; t++)//Cautam fiecare litera din cuvantul j in cuvantul i si se opreste la prima gasita, cei doi fiind vecini
                     if(array[i].indexOf(array[j].charAt(t)) != -1) {
                         matrix[i][j] = matrix[j][i] = true;
                         break;
                     }
             }
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) { //Afisam matricea
             for (int j = 0; j < n; j++)
                 System.out.print(matrix[i][j] + " ");
             System.out.println("");
         }
 
 
-        long endTime = System.nanoTime();
+        long endTime = System.nanoTime(); //Sfarsitul cronometrului
 
         System.out.println("Timpul de rulare in nanosecunde: " + (endTime-startTime));
     }
