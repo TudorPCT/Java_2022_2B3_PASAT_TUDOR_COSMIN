@@ -35,6 +35,7 @@ public class Main {
         //Step 6
         System.out.println("Willy-nilly, this semester I will learn " + languages[n]);
     }
+
     void homework(String[] args) {
         if (args.length < 3) {
             System.out.println("Input incorect. Format: n(numar), p(numar), alphabet(string)");
@@ -65,10 +66,10 @@ public class Main {
         Boolean[][] matrix = new Boolean[n][n]; //Matricea vecinilor
         for(int i = 0; i < n; i++)
             for(int j = i; j < n; j++){
-                matrix[i][j] = matrix[j][i] = false;//Cum relatia de vecinatate merge in ambele sensuri, parcurgem matricea doar deasupra diagonalei principale
+                matrix[i][j] = matrix[j][i] = false; //Cum relatia de vecinatate merge in ambele sensuri, parcurgem matricea doar deasupra diagonalei principale
                 if(i == j) //Un cuvant nu poate fi vecin cu el insusi
                     continue;
-                for(int t = 0; t < p; t++)//Cautam fiecare litera din cuvantul j in cuvantul i si se opreste la prima gasita, cei doi fiind vecini
+                for(int t = 0; t < p; t++) //Cautam fiecare litera din cuvantul j in cuvantul i si se opreste la prima gasita, cei doi fiind vecini
                     if(array[i].indexOf(array[j].charAt(t)) != -1) {
                         matrix[i][j] = matrix[j][i] = true;
                         break;
@@ -85,28 +86,29 @@ public class Main {
                     lists[i][listSize[i]++] = j;
         }
 
-    /*    for(int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) { //Afisam lista
             System.out.print("Vecinii cuvantului " + array[i] + " sunt: ");
             for (int j = 0; j < listSize[i]; j++)
                 System.out.print(array[lists[i][j]] + " ");
             System.out.println();
         }
-*/
+
 
         long endTime = System.nanoTime(); //Sfarsitul cronometrului
 
         System.out.println("Timpul de rulare in nanosecunde: " + (endTime-startTime));
 
-    //    bonus(array, lists, listSize);
+        bonus(array, lists, listSize);
 
     }
+
     void bonus(String[] array, int[][] lists, int[] listSize) {
         int[] maximum = new int[array.length+2];
         maximum[0] = -5;
         boolean first = false;
         for(int i = 0; i < array.length; i++)
         {
-            int[] result = DFS(i,array,lists,listSize);
+            int[] result = dfs(i,lists,listSize);
             if(result[0] > maximum[0])
                 System.arraycopy(result,0, maximum,0,result.length);
 
@@ -137,34 +139,40 @@ public class Main {
         System.out.println();
     }
 
-    int[] DFS(int s, String[] array, int[][] lists, int[] listSize)
+    int[] dfs(int s, int[][] lists, int[] listSize)
     {
-        int n = array.length;
-        int[] label = new int[n];
-        int[] parent = new int[n];
-        int[] next = new int[n];
-        int[] result = new int[n+2];
+        int n = lists.length;
+        int[] label = new int[n]; //Memoreaza pentru fiecare nod i ordinea sa in parcurgerea DFS
+        int[] parent = new int[n]; //Memoreaza pentru fiecare nod parintele lui in parcurgerea DFS
+        int[] next = new int[n];   //Memoreaza pentru fiecare nod, indicele din lista de adiacenta a primului vecin ce nu a fost ales deja
+        int[] result = new int[n+2]; //Memoreaza solutia
+
         Arrays.fill(label,-2);
         Arrays.fill(parent,-2);
         Arrays.fill(next,0);
-        label[s] = 0;
+
+        label[s] = 0; //s este nodul de start
         parent[s] = -1;
 
-        int[] myStack = new int[n]; int last = 1, ns = 0;
-        myStack[0] = s;
+        int[] myStack = new int[n]; //Stiva pentru parcurgerea DFS
+        int last = 1;
+        int ns = 0;
+        int u; //Varful stivei
+
+        myStack[0] = s; //Adaugam nodul de start in stiva
         result[0] = -5;
-        int u;
+
         while(last != 0)
         {
-            u = myStack[last-1];
-            if(next[u] < listSize[u]) {
-                if (label[lists[u][next[u]]] < -1) {
+            u = myStack[last-1]; //Alegem nodul din varful stivei
+            if(next[u] < listSize[u]) { //Alegem primul vecin disponibil din lista lui u
+                if (label[lists[u][next[u]]] < -1) { //Daca nodul nu a fost vizitat il adaugam in stiva si modificam datele sale in cei doi vectori
                     ns++;
                     label[lists[u][next[u]]] = ns;
                     parent[lists[u][next[u]]] = u;
                     myStack[last++] = lists[u][next[u]];
-                } else if (lists[u][next[u]] == s && parent[u] != s)
-                {
+                } else if (lists[u][next[u]] == s && parent[u] != s) //Daca vecinul ales este nodul de start,dar nu este parintele nodului u
+                {                                                    //atunci se formeaza un circuit care este secventa ceruta
                     result[0] = label[u];
                     result[1] = u;
                     System.arraycopy(parent, 0, result, 2, n);
