@@ -1,12 +1,14 @@
 package com.company;
 
 import java.util.Random;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
         Main lab = new Main();
-       // lab.compulsory();
+        lab.compulsory();
         lab.homework(args);
+
     }
     void compulsory() {
         //Step 1
@@ -62,8 +64,8 @@ public class Main {
 
         Boolean[][] matrix = new Boolean[n][n]; //Matricea vecinilor
         for(int i = 0; i < n; i++)
-            for(int j = 0; j < n; j++){
-                matrix[i][j] = matrix[j][i] = false;
+            for(int j = i; j < n; j++){
+                matrix[i][j] = matrix[j][i] = false;//Cum relatia de vecinatate merge in ambele sensuri, parcurgem matricea doar deasupra diagonalei principale
                 if(i == j) //Un cuvant nu poate fi vecin cu el insusi
                     continue;
                 for(int t = 0; t < p; t++)//Cautam fiecare litera din cuvantul j in cuvantul i si se opreste la prima gasita, cei doi fiind vecini
@@ -72,18 +74,106 @@ public class Main {
                         break;
                     }
             }
-        for(int i = 0; i < n; i++) { //Afisam matricea
+
+        int[][] lists = new int[n][n];
+        int[] listSize = new int[n];
+
+        for(int i = 0; i < n; i++) { //Construim lista de adiacenta
+            listSize[i] = 0;
             for (int j = 0; j < n; j++)
-                System.out.print(matrix[i][j] + " ");
-            System.out.println();
+                if(matrix[i][j])
+                    lists[i][listSize[i]++] = j;
         }
 
+    /*    for(int i = 0; i < n; i++) {
+            System.out.print("Vecinii cuvantului " + array[i] + " sunt: ");
+            for (int j = 0; j < listSize[i]; j++)
+                System.out.print(array[lists[i][j]] + " ");
+            System.out.println();
+        }
+*/
 
         long endTime = System.nanoTime(); //Sfarsitul cronometrului
 
         System.out.println("Timpul de rulare in nanosecunde: " + (endTime-startTime));
+
+    //    bonus(array, lists, listSize);
+
     }
-    void bonus() {
-//Do stuff
+    void bonus(String[] array, int[][] lists, int[] listSize) {
+        int[] maximum = new int[array.length+2];
+        maximum[0] = -5;
+        boolean first = false;
+        for(int i = 0; i < array.length; i++)
+        {
+            int[] result = DFS(i,array,lists,listSize);
+            if(result[0] > maximum[0])
+                System.arraycopy(result,0, maximum,0,result.length);
+
+            if(maximum[0] != -5 && !first)
+            {
+                System.out.print("Prima secventa: ");
+                print(array,maximum);
+                first = true;
+            }
+
+        }
+        if(maximum[0] == -5)
+            System.out.println("Nu s-a gasit nicio secventa de cuvinte");
+        else {
+            System.out.print("Secventa cu k maxim: ");
+            print(array, maximum);
+        }
+    }
+
+    void print(String[] array, int[] maximum)
+    {
+        int u = maximum[1];
+        while(u != -1)
+        {
+            System.out.print(array[u] + " ");
+            u = maximum[u+2];
+        }
+        System.out.println();
+    }
+
+    int[] DFS(int s, String[] array, int[][] lists, int[] listSize)
+    {
+        int n = array.length;
+        int[] label = new int[n];
+        int[] parent = new int[n];
+        int[] next = new int[n];
+        int[] result = new int[n+2];
+        Arrays.fill(label,-2);
+        Arrays.fill(parent,-2);
+        Arrays.fill(next,0);
+        label[s] = 0;
+        parent[s] = -1;
+
+        int[] myStack = new int[n]; int last = 1, ns = 0;
+        myStack[0] = s;
+        result[0] = -5;
+        int u;
+        while(last != 0)
+        {
+            u = myStack[last-1];
+            if(next[u] < listSize[u]) {
+                if (label[lists[u][next[u]]] < -1) {
+                    ns++;
+                    label[lists[u][next[u]]] = ns;
+                    parent[lists[u][next[u]]] = u;
+                    myStack[last++] = lists[u][next[u]];
+                } else if (lists[u][next[u]] == s && parent[u] != s)
+                {
+                    result[0] = label[u];
+                    result[1] = u;
+                    System.arraycopy(parent, 0, result, 2, n);
+                }
+                next[u]++;
+            }
+            else
+                last--;
+        }
+        return result;
     }
 }
