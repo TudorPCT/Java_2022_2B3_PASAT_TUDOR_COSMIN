@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.Random;
 import java.util.Arrays;
+import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,20 +38,38 @@ public class Main {
     }
 
     void homework(String[] args) {
+        String errPrint = "Input incorect. Format: n(numar), p(numar), alphabet(string)";
         if (args.length < 3) {
-            System.out.println("Input incorect. Format: n(numar), p(numar), alphabet(string)");
+            System.out.println(errPrint);
             System.exit(-1);
         }
 
         long startTime = System.nanoTime(); //Inceperea cronometrului
-        int n = Integer.parseInt(args[0]);
-        int p = Integer.parseInt(args[1]);
+
+        int n = 0, p = 0;
+        if(Pattern.matches("[0-9]+", args[0]))
+            n = Integer.parseInt(args[0]);
+        else{
+            System.out.println(errPrint);
+            System.exit(-1);
+        }
+        if(Pattern.matches("[0-9]+", args[1]))
+            p = Integer.parseInt(args[1]);
+        else{
+            System.out.println(errPrint);
+            System.exit(-1);
+        }
+
         String[] array = new String[n];
         Random rand = new Random();
 
         StringBuilder alphabet = new StringBuilder(); //construim alfabetul din argumente
         for(int i = 2; i < args.length; i++) {
-            alphabet.append(args[i].charAt(0));
+            if(args[i].length() > 1 || !Pattern.matches("[a-zA-Z]", args[i])) {
+                System.out.println(errPrint);
+                System.exit(-1);
+            }
+                alphabet.append(args[i].charAt(0));
         }
 
         for(int i = 0; i < n; i++) {
@@ -82,7 +101,7 @@ public class Main {
         for(int i = 0; i < n; i++) { //Construim lista de adiacenta
             listSize[i] = 0;
             for (int j = 0; j < n; j++)
-                if(matrix[i][j])
+                if(Boolean.TRUE.equals(matrix[i][j]))
                     lists[i][listSize[i]++] = j;
         }
 
@@ -103,49 +122,24 @@ public class Main {
     }
 
     void bonus(String[] array, int[][] lists, int[] listSize) {
-        int[] maximum = new int[array.length+2];
-        maximum[0] = -5;
-        boolean first = false;
-        for(int i = 0; i < array.length; i++)
-        {
-            int[] result = dfs(i,lists,listSize);
-            if(result[0] > maximum[0])
-                System.arraycopy(result,0, maximum,0,result.length);
-
-            if(maximum[0] != -5 && !first)
-            {
-                System.out.print("Prima secventa: ");
-                print(array,maximum);
-                first = true;
-            }
-
-        }
-        if(maximum[0] == -5)
-            System.out.println("Nu s-a gasit nicio secventa de cuvinte");
-        else {
-            System.out.print("Secventa cu k maxim: ");
-            print(array, maximum);
-        }
+        dfs(0,array,lists,listSize);
     }
 
-    void print(String[] array, int[] maximum)
+    void print(String[] array, int[] parent, int u, int v)
     {
-        int u = maximum[1];
-        while(u != -1)
-        {
+        while(u != v){
             System.out.print(array[u] + " ");
-            u = maximum[u+2];
+            u = parent[u];
         }
-        System.out.println();
+        System.out.println(array[v]);
     }
 
-    int[] dfs(int s, int[][] lists, int[] listSize)
+    void dfs(int s, String[] array, int[][] lists, int[] listSize)
     {
         int n = lists.length;
         int[] label = new int[n]; //Memoreaza pentru fiecare nod i ordinea sa in parcurgerea DFS
         int[] parent = new int[n]; //Memoreaza pentru fiecare nod parintele lui in parcurgerea DFS
         int[] next = new int[n];   //Memoreaza pentru fiecare nod, indicele din lista de adiacenta a primului vecin ce nu a fost ales deja
-        int[] result = new int[n+2]; //Memoreaza solutia
 
         Arrays.fill(label,-2);
         Arrays.fill(parent,-2);
@@ -160,10 +154,8 @@ public class Main {
         int u; //Varful stivei
 
         myStack[0] = s; //Adaugam nodul de start in stiva
-        result[0] = -5;
 
-        while(last != 0)
-        {
+        while(last != 0){
             u = myStack[last-1]; //Alegem nodul din varful stivei
             if(next[u] < listSize[u]) { //Alegem primul vecin disponibil din lista lui u
                 if (label[lists[u][next[u]]] < -1) { //Daca nodul nu a fost vizitat il adaugam in stiva si modificam datele sale in cei doi vectori
@@ -171,17 +163,15 @@ public class Main {
                     label[lists[u][next[u]]] = ns;
                     parent[lists[u][next[u]]] = u;
                     myStack[last++] = lists[u][next[u]];
-                } else if (lists[u][next[u]] == s && parent[u] != s) //Daca vecinul ales este nodul de start,dar nu este parintele nodului u
-                {                                                    //atunci se formeaza un circuit care este secventa ceruta
-                    result[0] = label[u];
-                    result[1] = u;
-                    System.arraycopy(parent, 0, result, 2, n);
+                } else if (lists[u][next[u]] != parent[u]){ //Daca vecinul ales a fost deja vizitat atunci se formeaza un circuit care este secventa ceruta
+                    print(array, parent, u, lists[u][next[u]]); //Afisam secventa
+                    return;
                 }
                 next[u]++;
             }
             else
-                last--;
+                last--;//Stergem elementul din stiva dupa parcurgerea tuturor vecinilor
         }
-        return result;
+        System.out.println("Nu s-a gasit secventa ceruata");
     }
 }
