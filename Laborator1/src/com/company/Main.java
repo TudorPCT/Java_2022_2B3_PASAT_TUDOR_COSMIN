@@ -46,7 +46,8 @@ public class Main {
 
         long startTime = System.nanoTime(); //Inceperea cronometrului
 
-        int n = 0, p = 0;
+        int n = 0;
+        int p = 0;
         if(Pattern.matches("[0-9]+", args[0]))
             n = Integer.parseInt(args[0]);
         else{
