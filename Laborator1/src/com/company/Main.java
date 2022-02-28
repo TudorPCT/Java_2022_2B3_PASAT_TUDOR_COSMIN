@@ -164,6 +164,7 @@ public class Main {
                     parent[lists[u][next[u]]] = u;
                     myStack[last++] = lists[u][next[u]];
                 } else if (lists[u][next[u]] != parent[u]){ //Daca vecinul ales a fost deja vizitat atunci se formeaza un circuit care este secventa ceruta
+                    System.out.print("Prima secventa de cuvinte gasita: ");
                     print(array, parent, u, lists[u][next[u]]); //Afisam secventa
                     return;
                 }
