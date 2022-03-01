@@ -1,5 +1,5 @@
 package com.company;
 
-public enum Types {
+public enum Type {
     COMPUTER_LAB, LECTURE_HALL;
 }

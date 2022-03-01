@@ -2,18 +2,18 @@ package com.company;
 
 public class Room {
     private String name;
-    private Types type;
+    private Type type;
     private int capacity;
 
     public Room() { }
 
-    public Room(String newName, Types newType, int newCapacity) {
+    public Room(String newName, Type newType, int newCapacity) {
         this.name = newName;
         this.type = newType;
         this.capacity = newCapacity;
     }
 
-    public Types getType() {
+    public Type getType() {
         return type;
     }
 
@@ -21,7 +21,7 @@ public class Room {
         return capacity;
     }
 
-    public void setType(Types type) {
+    public void setType(Type type) {
         this.type = type;
     }
 
