@@ -13,7 +13,9 @@ public class Room {
         this.capacity = newCapacity;
     }
 
-    public String getName() { return name; }
+    public String getName() {
+        return name;
+    }
 
     public Type getType() {
         return type;
@@ -23,7 +25,9 @@ public class Room {
         return capacity;
     }
 
-    public void setName(String name) { this.name = name; }
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public void setType(Type type) {
         this.type = type;
@@ -41,6 +45,4 @@ public class Room {
                 ", capacity=" + capacity +
                 '}';
     }
-
-    
 }
