@@ -15,8 +15,8 @@ public class Network {
 
     @Override
     public String toString() {
-        return "Network{" +
-                "nodes=" + nodes +
+        return "Network{" + '\n' +
+                "nodes=" + nodes + '\n' +
                 '}';
     }
 }
