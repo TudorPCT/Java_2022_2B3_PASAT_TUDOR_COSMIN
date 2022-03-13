@@ -1,4 +1,4 @@
-package com.company;
+package com.compulsory;
 
 public class Room {
     private String name;
@@ -45,4 +45,5 @@ public class Room {
                 ", capacity=" + capacity +
                 '}';
     }
+
 }

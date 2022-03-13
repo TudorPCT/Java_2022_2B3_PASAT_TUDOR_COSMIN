@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Objects;
+
 public class Event {
     private String name;
     private int size;
@@ -51,5 +53,18 @@ public class Event {
                 ", startTime=" + startTime +
                 ", endTime=" + endTime +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Event event = (Event) o;
+        return getSize() == event.getSize() && getStartTime() == event.getStartTime() && getEndTime() == event.getEndTime() && getName().equals(event.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName(), getSize(), getStartTime(), getEndTime());
     }
 }
