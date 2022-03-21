@@ -1,10 +1,12 @@
 package com.company;
 
+import java.util.Map;
+
 public class Router extends Node implements Identifiable{
     private String address;
 
-    public Router(String newName, String location, String newAddress){
-        super(newName,location);
+    public Router(String newName, String location, String newAddress, Map<Node, Integer> newCost){
+        super(newName,location,newCost);
         address = newAddress;
     }
     @Override
@@ -21,7 +23,8 @@ public class Router extends Node implements Identifiable{
     public String toString() {
         return "Router{" +
                 "name='" + name + '\'' +
+                ", location='" + location + '\'' +
                 ", address='" + address + '\'' +
-                '}';
+                '}' + '\n';
     }
 }
