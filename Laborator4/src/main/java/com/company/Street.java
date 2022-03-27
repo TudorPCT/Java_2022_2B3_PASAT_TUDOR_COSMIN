@@ -29,6 +29,15 @@ public class Street implements Comparable<Street>{
         return length;
     }
 
+    public Intersection getFirst(){
+        return joinedIntersections[0];
+    }
+
+    public Intersection getSecond(){
+        return joinedIntersections[1];
+    }
+
+
     @Override
     public int compareTo(Street o) {
         if(this.length < o.length)
