@@ -1,3 +1,4 @@
-com/company/Street.class
-com/company/Intersection.class
 com/company/Main.class
+com/company/Street.class
+com/company/City.class
+com/company/Intersection.class
