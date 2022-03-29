@@ -13,7 +13,7 @@ public class Algorithm {
         List<Intersection> roots = new ArrayList<>();
 
         for(int i = 0; i < intersectionList.size(); i++)
-            roots.add(null);
+            roots.add(intersectionList.get(i));
 
         streetList.sort(Street::compareTo);
 
@@ -25,13 +25,13 @@ public class Algorithm {
             Intersection firstRoot = roots.get(firstRootIndex);
             Intersection secondRoot = roots.get(secondRootIndex);
 
-            if( firstRoot == null || !firstRoot.equals(secondRoot) ){
+            if( !firstRoot.equals(secondRoot) ){
                 solution.add(currentStreet);
                 roots.set(firstRootIndex, currentStreet.getFirst());
                 roots.set(secondRootIndex, currentStreet.getFirst());
                 for(int i = 0; i < roots.size(); i++){
                     Intersection root = roots.get(i);
-                    if(root != null && (root.equals(firstRoot) || root.equals(secondRoot)))
+                    if(root.equals(firstRoot) || root.equals(secondRoot))
                         roots.set(i, currentStreet.getFirst());
                 }
             }

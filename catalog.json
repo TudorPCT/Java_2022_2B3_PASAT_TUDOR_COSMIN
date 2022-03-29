@@ -1,0 +1,1 @@
+{"name":"myCatalog","items":[{"id":"knuth67","title":"The Art of Computer Programming","location":"d:/books/programming/tacp.ps","tags":{"year":1967,"author":"Donald E. Knuth","type":"book"}},{"id":"java17","title":"The Java Language Specification","location":"https://docs.oracle.com/javase/specs/jls/se17/html/index.html","tags":{"year":2021,"author":"James Gosling & others"}}]}
