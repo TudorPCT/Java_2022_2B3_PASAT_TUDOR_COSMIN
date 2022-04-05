@@ -3,8 +3,9 @@ package com.company.app;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.io.Serializable;
 
-public class ConfigPanel extends JPanel {
+public class ConfigPanel extends JPanel implements Serializable {
 
     final MainFrame frame;
     private JLabel label;
@@ -34,11 +35,25 @@ public class ConfigPanel extends JPanel {
         rows = (Integer) spinnerRows.getValue();
         cols = (Integer) spinnerCols.getValue();
 
-        frame.canvas.init(rows, cols);
-        frame.canvas.repaint();
+        frame.game.init(rows, cols);
 
+        frame.canvas.init(rows, cols);
+
+        frame.canvas.paintRandomLines();
+
+        frame.canvas.repaint();
     }
 
+    public void setSpinnerRows(int rows){
+        this.rows = rows;
+        spinnerRows.setValue(rows);
+    }
+
+
+    public void setSpinnerCols(int cols) {
+        this.cols = cols;
+        spinnerCols.setValue(cols);
+    }
     public int getRows() {
         return rows;
     }
