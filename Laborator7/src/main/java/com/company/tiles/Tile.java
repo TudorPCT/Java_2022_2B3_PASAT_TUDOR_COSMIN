@@ -1,5 +1,7 @@
 package com.company.tiles;
 
+import java.util.Objects;
+
 public class Tile {
     private final char letter;
     private final int points;
@@ -15,6 +17,19 @@ public class Tile {
 
     public int getPoints() {
         return points;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Tile)) return false;
+        Tile tile = (Tile) o;
+        return getLetter() == tile.getLetter();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getLetter());
     }
 
     @Override

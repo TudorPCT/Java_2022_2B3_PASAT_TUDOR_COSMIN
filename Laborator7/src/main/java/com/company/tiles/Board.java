@@ -1,20 +1,16 @@
 package com.company.tiles;
 
-import com.company.gameLogic.Player;
+import com.company.game.Game;
+import com.company.game.Player;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Board {
-    private final List<String> words;
 
-    public Board(){
-        words = new ArrayList<>();
-    }
+    private List<String> words = new ArrayList<>();
 
     public synchronized void addWord(Player player, String word) {
         words.add(word);
-        System.out.println(player.getName() + ": " + word);
     }
 
     @Override
