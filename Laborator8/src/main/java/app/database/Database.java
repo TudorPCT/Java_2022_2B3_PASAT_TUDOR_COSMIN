@@ -20,6 +20,7 @@ public class Database {
     }
 
     private static void createConnection() {
+
         try {
             connection = DriverManager.getConnection(
                     URL, USER, PASSWORD);
@@ -46,6 +47,5 @@ public class Database {
             } catch (SQLException e){
                 System.err.println("Error occured when rolling back the DB: " + e);
             }
-
     }
 }
