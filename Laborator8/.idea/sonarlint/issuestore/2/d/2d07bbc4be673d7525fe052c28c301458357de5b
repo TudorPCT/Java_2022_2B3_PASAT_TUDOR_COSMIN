@@ -1,0 +1,14 @@
+
+D
+java:S1948"'Make "image" transient or serializable.(ğã’8¿·Ï‡0
+M
+java:S1948"+Make "offscreen" transient or serializable.(˜Ô„ãùÿÿÿÿ8 ¿·Ï‡0
+K
+java:S1948")Make "cityDAO" transient or serializable.(œ“Äïûÿÿÿÿ8¡¿·Ï‡0
+9
+java:S1116D"Remove this empty statement.(˜Íô™8Ã¿·Ï‡0
+]	java:S125X"<This block of commented-out lines of code should be removed.(­¸Ñüÿÿÿÿ8ìğÅËˆ0
+K
+java:S1068")Remove this unused "frame" private field.(ÃÁ¦‡ÿÿÿÿÿ8Ñ¿·Ï‡0
+c
+java:S2259'"AA "NullPointerException" could be thrown; "img" is nullable here.(’ÿà¶üÿÿÿÿ8è¿·Ï‡0
