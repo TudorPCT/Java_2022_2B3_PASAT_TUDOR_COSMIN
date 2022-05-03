@@ -1,41 +1,45 @@
 package app;
 
-import app.database.ContinentDAO;
-import app.database.CountryDAO;
-import app.database.Database;
-import org.apache.ibatis.jdbc.ScriptRunner;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.Reader;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import app.city.City;
+import app.country.CountryDAO;
+import app.database.*;
+import app.city.CityDAO;
+import app.continent.ContinentDAO;
+import app.map.MainFrame;
 
 public class Main {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
+        Main lab8 = new Main();
+        lab8.homework();
+    }
 
-        ScriptRunner sr = new ScriptRunner(Database.getConnection());
-
-
-        try (Reader reader = new BufferedReader(new FileReader("./src/main/resources/createTables.sql"))){
-            sr.runScript(reader);
+    public void homework(){
+        try {
+            CityDAO cityDAO = new CityDAO();
+            City cityOne = (City) cityDAO.findById(10);
+            City cityTwo = (City) cityDAO.findById(100);
+            System.out.println("Distance from " + cityOne.getName() + " to " + cityTwo.getName() + " is " + cityOne.distanceBetween(cityTwo));
+            new MainFrame().setVisible(true);
         }catch (Exception e){
             e.printStackTrace();
-            System.exit(1);
         }
+    }
 
+    /*
+    public void compulsory(){
         try {
             var continents = new ContinentDAO();
             continents.create("Europe");
             Database.getConnection().commit();
             var countries = new CountryDAO();
-            int europeId = continents.findByName("America");
-            countries.create("Romania", europeId);
-            countries.create("Ukraine", europeId);
+            int europeId = continents.findByName("Europe");
+            countries.create("Romania", "1", europeId);
+            countries.create("Ukraine","2",  europeId);
             Database.getConnection().commit();
-
+            var cities = new CityDAO();
+            cities.create("asd",1,1,1,1);
+            Database.getConnection().commit();
             try (Statement stmt = Database.getConnection().createStatement();
                  ResultSet rs = stmt.executeQuery(
                          "select * from continents")) {
@@ -66,5 +70,6 @@ public class Main {
             Database.rollback();
         }
     }
+     */
 
 }
