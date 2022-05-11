@@ -2,6 +2,7 @@ package app.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
 @Table(name = "countries")
@@ -11,21 +12,18 @@ import java.io.Serializable;
         @NamedQuery(name = "Country.findByName",
                 query = "select e from Country e where e.name = ?1")
 })
-public class Country implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "id")
-    @Column(name = "id")
-    private long id;
-    @Column(name = "name")
-    private String name;
+public class Country extends AbstractEntity {
     @Column(name = "code")
     private String code;
-    @Column(name = "continent")
-    private Integer continent;
+    @ManyToOne
+    @JoinColumn(name = "continent",nullable = false)
+    private Continent continent;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "country")
+    private List<City> cities;
 
     public Country(){}
 
-    public Country(String name, String code, Integer continent) {
+    public Country(String name, String code, Continent continent) {
         this.name = name;
         this.code = code;
         this.continent = continent;
@@ -55,11 +53,11 @@ public class Country implements Serializable {
         this.code = code;
     }
 
-    public Integer getContinent() {
+    public Continent getContinent() {
         return continent;
     }
 
-    public void setContinent(Integer continent) {
+    public void setContinent(Continent continent) {
         this.continent = continent;
     }
 

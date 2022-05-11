@@ -6,15 +6,7 @@ import app.persistanceUtil.PersistanceUtil;
 import javax.persistence.EntityManager;
 import java.util.List;
 
-public class ContinentRepository {
-
-    public void create(Continent continent){
-        EntityManager entityManager = PersistanceUtil.getEntityManager();
-        entityManager.getTransaction().begin();
-        entityManager.persist(continent);
-        entityManager.getTransaction().commit();
-        entityManager.close();
-    }
+public class ContinentRepository extends DataRepository<Continent,Integer>{
 
     public Continent findById(Integer id) {
         return (Continent) PersistanceUtil.getEntityManager().createNamedQuery("Continent.findById")

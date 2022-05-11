@@ -1,45 +1,46 @@
 package app.entity;
 
+import app.persistanceUtil.TimeLogger;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
+@EntityListeners({TimeLogger.class})
+
 @Table(name = "cities")
 @NamedQueries({
         @NamedQuery(name = "City.findById",
                 query = "select e from City e where e.id = ?1"),
         @NamedQuery(name = "City.findByName",
-                query = "select e from City e where e.name = ?1")
+                query = "select e from City e where e.name = ?1"),
+        @NamedQuery(name = "City.findAll",
+                query = "select e from City e"),
+        @NamedQuery(name = "City.findByPopulation",
+                query = "select e from City e where e.population = ?1")
 })
-public class City implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "id")
-    @Column(name = "id")
-    private long id;
-
-    @Column(name = "name")
-    private String name;
-
-    @Column(name = "country")
-    private Integer country;
-
+public class City extends AbstractEntity {
+    @ManyToOne
+    @JoinColumn(name = "country",nullable = false)
+    private Country country;
     @Column(name = "capital")
     private Integer capital;
-
     @Column(name = "latitude")
     private Double latitude;
-
     @Column(name = "longitude")
     private Double longitude;
+    @Column(name = "population")
+    private Integer population;
 
     public City(){}
 
-    public City(String name, Integer country, Integer capital, Double latitude, Double longitude) {
+    public City(String name, Country country, Integer capital, Double latitude, Double longitude, Integer population) {
         this.name = name;
         this.country = country;
         this.capital = capital;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.population = population;
     }
 
     public long getId() {
@@ -58,11 +59,11 @@ public class City implements Serializable {
         this.name = name;
     }
 
-    public Integer getCountry() {
+    public Country getCountry() {
         return country;
     }
 
-    public void setCountry(Integer country) {
+    public void setCountry(Country country) {
         this.country = country;
     }
 
@@ -88,6 +89,10 @@ public class City implements Serializable {
 
     public void setLongitude(Double longitude) {
         this.longitude = longitude;
+    }
+
+    public Integer getPopulation() {
+        return population;
     }
 
     @Override

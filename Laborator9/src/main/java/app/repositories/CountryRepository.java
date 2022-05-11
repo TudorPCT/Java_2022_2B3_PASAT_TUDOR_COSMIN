@@ -1,20 +1,13 @@
 package app.repositories;
 
+
 import app.entity.Country;
 import app.persistanceUtil.PersistanceUtil;
 
-import javax.persistence.EntityManager;
 import java.util.List;
 
-public class CountryRepository {
 
-    public void create(Country country) {
-        EntityManager entityManager = PersistanceUtil.getEntityManager();
-        entityManager.getTransaction().begin();
-        entityManager.persist(country);
-        entityManager.getTransaction().commit();
-        entityManager.close();
-    }
+public class CountryRepository  extends DataRepository<Country,Integer>{
 
     public Country findById(Integer id) {
         return (Country) PersistanceUtil.getEntityManager().createNamedQuery("Country.findById")

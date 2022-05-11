@@ -1,0 +1,9 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ä—ÛÅúÿÿÿÿ8ØÄ¸–‹0
+`
+java:S1610
+">Convert the abstract class "DataRepository" into an interface.(ÕÒ…ˆøÿÿÿÿ8ÚÄ¸–‹0
+j	java:S119
+"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ÕÒ…ˆøÿÿÿÿ8ãÄ¸–‹0
+y
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(Ï·¡üÿÿÿÿ8éÄ¸–‹0

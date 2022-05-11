@@ -1,7 +1,7 @@
 package app.entity;
 
 import javax.persistence.*;
-import java.io.Serializable;
+import java.util.List;
 
 @Entity
 @Table(name = "continents")
@@ -11,14 +11,9 @@ import java.io.Serializable;
         @NamedQuery(name = "Continent.findByName",
                 query = "select e from Continent e where e.name = ?1")
 })
-public class Continent implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "id")
-    @Column(name = "id")
-    private long id;
-    @Column(name = "name")
-    private String name;
+public class Continent extends AbstractEntity {
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "continent")
+    private List<Country> countries;
 
     public Continent(){}
 

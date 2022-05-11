@@ -1,0 +1,714 @@
+Inserting time for the city Hargeisa is 5658585
+Inserting time for the city King Edward Point is 1113993
+Inserting time for the city Port-aux-Français is 1196535
+Inserting time for the city Jerusalem is 1301996
+Inserting time for the city Mariehamn is 1213842
+Inserting time for the city Yaren is 1092187
+Inserting time for the city Marigot is 1028390
+Inserting time for the city Atafu is 1129040
+Inserting time for the city El-Aaiún is 1104660
+Inserting time for the city Kabul is 1058521
+Inserting time for the city Tirana is 1029902
+Inserting time for the city Algiers is 1054492
+Inserting time for the city Pago Pago is 1110714
+Inserting time for the city Andorra la Vella is 1106152
+Inserting time for the city Luanda is 826696
+Inserting time for the city The Valley is 1181095
+Inserting time for the city Saint John's is 803561
+Inserting time for the city Buenos Aires is 1322863
+Inserting time for the city Yerevan is 1306791
+Inserting time for the city Oranjestad is 1253944
+Inserting time for the city Canberra is 1242878
+Inserting time for the city Vienna is 819391
+Inserting time for the city Baku is 1380975
+Inserting time for the city Nassau is 883869
+Inserting time for the city Manama is 901710
+Inserting time for the city Dhaka is 1027638
+Inserting time for the city Bridgetown is 765402
+Inserting time for the city Minsk is 1099362
+Inserting time for the city Brussels is 828159
+Inserting time for the city Belmopan is 1382699
+Inserting time for the city Porto-Novo is 1136373
+Inserting time for the city Hamilton is 1286047
+Inserting time for the city Thimphu is 980293
+Inserting time for the city La Paz is 1036795
+Inserting time for the city Sarajevo is 942848
+Inserting time for the city Gaborone is 880387
+Inserting time for the city Brasilia is 1263569
+Inserting time for the city Road Town is 770331
+Inserting time for the city Bandar Seri Begawan is 905172
+Inserting time for the city Sofia is 1158711
+Inserting time for the city Ouagadougou is 960459
+Inserting time for the city Rangoon is 977919
+Inserting time for the city Bujumbura is 795586
+Inserting time for the city Phnom Penh is 719646
+Inserting time for the city Yaounde is 973635
+Inserting time for the city Ottawa is 885824
+Inserting time for the city Praia is 756740
+Inserting time for the city George Town is 926992
+Inserting time for the city Bangui is 856066
+Inserting time for the city N'Djamena is 797765
+Inserting time for the city Santiago is 1246975
+Inserting time for the city Beijing is 943254
+Inserting time for the city The Settlement is 856103
+Inserting time for the city West Island is 921721
+Inserting time for the city Bogota is 1001451
+Inserting time for the city Moroni is 980820
+Inserting time for the city Kinshasa is 991958
+Inserting time for the city Brazzaville is 1198911
+Inserting time for the city Avarua is 823839
+Inserting time for the city San Jose is 1138835
+Inserting time for the city Yamoussoukro is 1086483
+Inserting time for the city Zagreb is 969596
+Inserting time for the city Havana is 1024607
+Inserting time for the city Willemstad is 1078744
+Inserting time for the city Nicosia is 917248
+Inserting time for the city Prague is 865032
+Inserting time for the city Copenhagen is 746195
+Inserting time for the city Djibouti is 1165552
+Inserting time for the city Roseau is 737819
+Inserting time for the city Santo Domingo is 1024121
+Inserting time for the city Quito is 1067726
+Inserting time for the city Cairo is 993308
+Inserting time for the city San Salvador is 997408
+Inserting time for the city Malabo is 968317
+Inserting time for the city Asmara is 1002774
+Inserting time for the city Tallinn is 932552
+Inserting time for the city Addis Ababa is 673882
+Inserting time for the city Stanley is 1184089
+Inserting time for the city Torshavn is 1424861
+Inserting time for the city Suva is 956975
+Inserting time for the city Helsinki is 876172
+Inserting time for the city Paris is 975583
+Inserting time for the city Papeete is 884613
+Inserting time for the city Libreville is 723215
+Inserting time for the city Banjul is 666418
+Inserting time for the city Tbilisi is 1193658
+Inserting time for the city Berlin is 903719
+Inserting time for the city Accra is 640815
+Inserting time for the city Gibraltar is 843439
+Inserting time for the city Athens is 582441
+Inserting time for the city Nuuk is 607095
+Inserting time for the city Saint George's is 546866
+Inserting time for the city Hagatna is 752613
+Inserting time for the city Guatemala City is 648260
+Inserting time for the city Saint Peter Port is 575046
+Inserting time for the city Conakry is 818010
+Inserting time for the city Bissau is 687592
+Inserting time for the city Georgetown is 502756
+Inserting time for the city Port-au-Prince is 537804
+Inserting time for the city Vatican City is 811990
+Inserting time for the city Tegucigalpa is 646808
+Inserting time for the city Budapest is 554441
+Inserting time for the city Reykjavik is 678033
+Inserting time for the city New Delhi is 766357
+Inserting time for the city Jakarta is 864129
+Inserting time for the city Tehran is 1046311
+Inserting time for the city Baghdad is 977706
+Inserting time for the city Dublin is 801412
+Inserting time for the city Douglas is 1531040
+Inserting time for the city Rome is 562681
+Inserting time for the city Kingston is 518819
+Inserting time for the city Tokyo is 537954
+Inserting time for the city Saint Helier is 590376
+Inserting time for the city Amman is 683747
+Inserting time for the city Astana is 563772
+Inserting time for the city Nairobi is 619569
+Inserting time for the city Tarawa is 534348
+Inserting time for the city Pyongyang is 607270
+Inserting time for the city Seoul is 567737
+Inserting time for the city Pristina is 675105
+Inserting time for the city Kuwait City is 706240
+Inserting time for the city Bishkek is 767370
+Inserting time for the city Vientiane is 623703
+Inserting time for the city Riga is 521944
+Inserting time for the city Beirut is 538195
+Inserting time for the city Maseru is 626343
+Inserting time for the city Monrovia is 793023
+Inserting time for the city Tripoli is 944260
+Inserting time for the city Vaduz is 519053
+Inserting time for the city Vilnius is 768065
+Inserting time for the city Luxembourg is 951043
+Inserting time for the city Skopje is 612937
+Inserting time for the city Antananarivo is 584451
+Inserting time for the city Lilongwe is 510427
+Inserting time for the city Kuala Lumpur is 659736
+Inserting time for the city Male is 877921
+Inserting time for the city Bamako is 583499
+Inserting time for the city Valletta is 705346
+Inserting time for the city Majuro is 540687
+Inserting time for the city Nouakchott is 465882
+Inserting time for the city Port Louis is 594725
+Inserting time for the city Mexico City is 621388
+Inserting time for the city Palikir is 678136
+Inserting time for the city Chisinau is 563197
+Inserting time for the city Monaco is 736800
+Inserting time for the city Ulaanbaatar is 497915
+Inserting time for the city Podgorica is 613772
+Inserting time for the city Plymouth is 508446
+Inserting time for the city Rabat is 604098
+Inserting time for the city Maputo is 846460
+Inserting time for the city Windhoek is 738330
+Inserting time for the city Kathmandu is 584811
+Inserting time for the city Amsterdam is 500944
+Inserting time for the city Noumea is 687164
+Inserting time for the city Wellington is 648023
+Inserting time for the city Managua is 509536
+Inserting time for the city Niamey is 728873
+Inserting time for the city Abuja is 842755
+Inserting time for the city Alofi is 634391
+Inserting time for the city Saipan is 1069408
+Inserting time for the city Oslo is 616388
+Inserting time for the city Muscat is 803620
+Inserting time for the city Islamabad is 973867
+Inserting time for the city Melekeok is 544529
+Inserting time for the city Panama City is 654725
+Inserting time for the city Port Moresby is 855447
+Inserting time for the city Asuncion is 689085
+Inserting time for the city Lima is 604655
+Inserting time for the city Manila is 811765
+Inserting time for the city Adamstown is 1217938
+Inserting time for the city Warsaw is 625170
+Inserting time for the city Lisbon is 622492
+Inserting time for the city San Juan is 913600
+Inserting time for the city Doha is 807289
+Inserting time for the city Bucharest is 686702
+Inserting time for the city Moscow is 635766
+Inserting time for the city Kigali is 557579
+Inserting time for the city Gustavia is 542855
+Inserting time for the city Jamestown is 503797
+Inserting time for the city Basseterre is 525490
+Inserting time for the city Castries is 562637
+Inserting time for the city Saint-Pierre is 484507
+Inserting time for the city Kingstown is 491993
+Inserting time for the city Apia is 480750
+Inserting time for the city San Marino is 580706
+Inserting time for the city Sao Tome is 508011
+Inserting time for the city Riyadh is 528843
+Inserting time for the city Dakar is 496453
+Inserting time for the city Belgrade is 810144
+Inserting time for the city Victoria is 622641
+Inserting time for the city Freetown is 544205
+Inserting time for the city Singapore is 627225
+Inserting time for the city Philipsburg is 788952
+Inserting time for the city Bratislava is 532054
+Inserting time for the city Ljubljana is 489868
+Inserting time for the city Honiara is 481757
+Inserting time for the city Mogadishu is 449208
+Inserting time for the city Pretoria is 589572
+Inserting time for the city Juba is 479495
+Inserting time for the city Madrid is 475375
+Inserting time for the city Colombo is 428198
+Inserting time for the city Khartoum is 458912
+Inserting time for the city Paramaribo is 703694
+Inserting time for the city Longyearbyen is 472697
+Inserting time for the city Mbabane is 493280
+Inserting time for the city Stockholm is 519491
+Inserting time for the city Bern is 499397
+Inserting time for the city Damascus is 558987
+Inserting time for the city Taipei is 512862
+Inserting time for the city Dushanbe is 452823
+Inserting time for the city Dar es Salaam is 574192
+Inserting time for the city Bangkok is 571739
+Inserting time for the city Dili is 488214
+Inserting time for the city Lome is 481472
+Inserting time for the city Nuku'alofa is 441678
+Inserting time for the city Port of Spain is 483457
+Inserting time for the city Tunis is 688861
+Inserting time for the city Ankara is 464635
+Inserting time for the city Ashgabat is 511808
+Inserting time for the city Grand Turk is 440569
+Inserting time for the city Funafuti is 454369
+Inserting time for the city Kampala is 684609
+Inserting time for the city Kyiv is 1055131
+Inserting time for the city Abu Dhabi is 503205
+Inserting time for the city London is 601538
+Inserting time for the city Washington is 623280
+Inserting time for the city Montevideo is 708520
+Inserting time for the city Tashkent is 624023
+Inserting time for the city Port-Vila is 549013
+Inserting time for the city Caracas is 821647
+Inserting time for the city Hanoi is 534287
+Inserting time for the city Charlotte Amalie is 525883
+Inserting time for the city Mata-Utu is 510429
+Inserting time for the city Sanaa is 606762
+Inserting time for the city Lusaka is 630269
+Inserting time for the city Harare is 707788
+Inserting time for the city North Nicosia is 547964
+Inserting time for the city Diego Garcia is 612781
+Inserting time for the city Hargeisa is 13117618 nanoseconds
+Inserting time for the city King Edward Point is 1223232 nanoseconds
+Inserting time for the city Port-aux-Français is 1120217 nanoseconds
+Inserting time for the city Jerusalem is 1281857 nanoseconds
+Inserting time for the city Mariehamn is 1215234 nanoseconds
+Inserting time for the city Yaren is 841655 nanoseconds
+Inserting time for the city Marigot is 1281044 nanoseconds
+Inserting time for the city Atafu is 1085967 nanoseconds
+Inserting time for the city El-Aaiún is 1448313 nanoseconds
+Inserting time for the city Kabul is 1193240 nanoseconds
+Inserting time for the city Tirana is 1242115 nanoseconds
+Inserting time for the city Algiers is 708378 nanoseconds
+Inserting time for the city Pago Pago is 674487 nanoseconds
+Inserting time for the city Andorra la Vella is 1013485 nanoseconds
+Inserting time for the city Luanda is 950693 nanoseconds
+Inserting time for the city The Valley is 1170195 nanoseconds
+Inserting time for the city Saint John's is 717530 nanoseconds
+Inserting time for the city Buenos Aires is 906465 nanoseconds
+Inserting time for the city Yerevan is 1295092 nanoseconds
+Inserting time for the city Oranjestad is 672846 nanoseconds
+Inserting time for the city Canberra is 792760 nanoseconds
+Inserting time for the city Vienna is 789586 nanoseconds
+Inserting time for the city Baku is 674989 nanoseconds
+Inserting time for the city Nassau is 694159 nanoseconds
+Inserting time for the city Manama is 772706 nanoseconds
+Inserting time for the city Dhaka is 725294 nanoseconds
+Inserting time for the city Bridgetown is 656434 nanoseconds
+Inserting time for the city Minsk is 1011625 nanoseconds
+Inserting time for the city Brussels is 938580 nanoseconds
+Inserting time for the city Belmopan is 1305966 nanoseconds
+Inserting time for the city Porto-Novo is 1320739 nanoseconds
+Inserting time for the city Hamilton is 671978 nanoseconds
+Inserting time for the city Thimphu is 817588 nanoseconds
+Inserting time for the city La Paz is 970102 nanoseconds
+Inserting time for the city Sarajevo is 943354 nanoseconds
+Inserting time for the city Gaborone is 1082189 nanoseconds
+Inserting time for the city Brasilia is 667828 nanoseconds
+Inserting time for the city Road Town is 818592 nanoseconds
+Inserting time for the city Bandar Seri Begawan is 895616 nanoseconds
+Inserting time for the city Sofia is 734231 nanoseconds
+Inserting time for the city Ouagadougou is 1127024 nanoseconds
+Inserting time for the city Rangoon is 819181 nanoseconds
+Inserting time for the city Bujumbura is 1205625 nanoseconds
+Inserting time for the city Phnom Penh is 1166770 nanoseconds
+Inserting time for the city Yaounde is 1085460 nanoseconds
+Inserting time for the city Ottawa is 1021838 nanoseconds
+Inserting time for the city Praia is 1122592 nanoseconds
+Inserting time for the city George Town is 848203 nanoseconds
+Inserting time for the city Bangui is 956174 nanoseconds
+Inserting time for the city N'Djamena is 1366677 nanoseconds
+Inserting time for the city Santiago is 1513819 nanoseconds
+Inserting time for the city Beijing is 1155960 nanoseconds
+Inserting time for the city The Settlement is 1261807 nanoseconds
+Inserting time for the city West Island is 1367269 nanoseconds
+Inserting time for the city Bogota is 1776507 nanoseconds
+Inserting time for the city Moroni is 1506345 nanoseconds
+Inserting time for the city Kinshasa is 1390681 nanoseconds
+Inserting time for the city Brazzaville is 1209095 nanoseconds
+Inserting time for the city Avarua is 2001322 nanoseconds
+Inserting time for the city San Jose is 1075991 nanoseconds
+Inserting time for the city Yamoussoukro is 1180399 nanoseconds
+Inserting time for the city Zagreb is 2037691 nanoseconds
+Inserting time for the city Havana is 1046697 nanoseconds
+Inserting time for the city Willemstad is 1654928 nanoseconds
+Inserting time for the city Nicosia is 1048379 nanoseconds
+Inserting time for the city Prague is 1417669 nanoseconds
+Inserting time for the city Copenhagen is 885757 nanoseconds
+Inserting time for the city Djibouti is 974910 nanoseconds
+Inserting time for the city Roseau is 957835 nanoseconds
+Inserting time for the city Santo Domingo is 930033 nanoseconds
+Inserting time for the city Quito is 833185 nanoseconds
+Inserting time for the city Cairo is 738799 nanoseconds
+Inserting time for the city San Salvador is 1036310 nanoseconds
+Inserting time for the city Malabo is 1396028 nanoseconds
+Inserting time for the city Asmara is 959721 nanoseconds
+Inserting time for the city Tallinn is 750518 nanoseconds
+Inserting time for the city Addis Ababa is 1312694 nanoseconds
+Inserting time for the city Stanley is 1055366 nanoseconds
+Inserting time for the city Torshavn is 893211 nanoseconds
+Inserting time for the city Suva is 942095 nanoseconds
+Inserting time for the city Helsinki is 697372 nanoseconds
+Inserting time for the city Paris is 767240 nanoseconds
+Inserting time for the city Papeete is 777293 nanoseconds
+Inserting time for the city Libreville is 763803 nanoseconds
+Inserting time for the city Banjul is 760660 nanoseconds
+Inserting time for the city Tbilisi is 661238 nanoseconds
+Inserting time for the city Berlin is 862374 nanoseconds
+Inserting time for the city Accra is 641704 nanoseconds
+Inserting time for the city Gibraltar is 591004 nanoseconds
+Inserting time for the city Athens is 853873 nanoseconds
+Inserting time for the city Nuuk is 685151 nanoseconds
+Inserting time for the city Saint George's is 888163 nanoseconds
+Inserting time for the city Hagatna is 539761 nanoseconds
+Inserting time for the city Guatemala City is 575829 nanoseconds
+Inserting time for the city Saint Peter Port is 772408 nanoseconds
+Inserting time for the city Conakry is 970913 nanoseconds
+Inserting time for the city Bissau is 597375 nanoseconds
+Inserting time for the city Georgetown is 564447 nanoseconds
+Inserting time for the city Port-au-Prince is 758919 nanoseconds
+Inserting time for the city Vatican City is 720296 nanoseconds
+Inserting time for the city Tegucigalpa is 672331 nanoseconds
+Inserting time for the city Budapest is 643084 nanoseconds
+Inserting time for the city Reykjavik is 792807 nanoseconds
+Inserting time for the city New Delhi is 819629 nanoseconds
+Inserting time for the city Jakarta is 739652 nanoseconds
+Inserting time for the city Tehran is 718408 nanoseconds
+Inserting time for the city Baghdad is 667377 nanoseconds
+Inserting time for the city Dublin is 741038 nanoseconds
+Inserting time for the city Douglas is 558873 nanoseconds
+Inserting time for the city Rome is 859976 nanoseconds
+Inserting time for the city Kingston is 587021 nanoseconds
+Inserting time for the city Tokyo is 533847 nanoseconds
+Inserting time for the city Saint Helier is 529405 nanoseconds
+Inserting time for the city Amman is 535635 nanoseconds
+Inserting time for the city Astana is 666556 nanoseconds
+Inserting time for the city Nairobi is 752882 nanoseconds
+Inserting time for the city Tarawa is 562433 nanoseconds
+Inserting time for the city Pyongyang is 607700 nanoseconds
+Inserting time for the city Seoul is 520851 nanoseconds
+Inserting time for the city Pristina is 484119 nanoseconds
+Inserting time for the city Kuwait City is 614490 nanoseconds
+Inserting time for the city Bishkek is 566097 nanoseconds
+Inserting time for the city Vientiane is 552808 nanoseconds
+Inserting time for the city Riga is 586225 nanoseconds
+Inserting time for the city Beirut is 683740 nanoseconds
+Inserting time for the city Maseru is 861676 nanoseconds
+Inserting time for the city Monrovia is 625366 nanoseconds
+Inserting time for the city Tripoli is 4424781 nanoseconds
+Inserting time for the city Vaduz is 774520 nanoseconds
+Inserting time for the city Vilnius is 560624 nanoseconds
+Inserting time for the city Luxembourg is 629751 nanoseconds
+Inserting time for the city Skopje is 483095 nanoseconds
+Inserting time for the city Antananarivo is 455462 nanoseconds
+Inserting time for the city Lilongwe is 460521 nanoseconds
+Inserting time for the city Kuala Lumpur is 488666 nanoseconds
+Inserting time for the city Male is 556293 nanoseconds
+Inserting time for the city Bamako is 501788 nanoseconds
+Inserting time for the city Valletta is 502319 nanoseconds
+Inserting time for the city Majuro is 536454 nanoseconds
+Inserting time for the city Nouakchott is 491442 nanoseconds
+Inserting time for the city Port Louis is 480529 nanoseconds
+Inserting time for the city Mexico City is 534591 nanoseconds
+Inserting time for the city Palikir is 464905 nanoseconds
+Inserting time for the city Chisinau is 461399 nanoseconds
+Inserting time for the city Monaco is 565175 nanoseconds
+Inserting time for the city Ulaanbaatar is 545247 nanoseconds
+Inserting time for the city Podgorica is 604710 nanoseconds
+Inserting time for the city Plymouth is 654403 nanoseconds
+Inserting time for the city Rabat is 597447 nanoseconds
+Inserting time for the city Maputo is 598364 nanoseconds
+Inserting time for the city Windhoek is 578290 nanoseconds
+Inserting time for the city Kathmandu is 616540 nanoseconds
+Inserting time for the city Amsterdam is 634046 nanoseconds
+Inserting time for the city Noumea is 599699 nanoseconds
+Inserting time for the city Wellington is 582926 nanoseconds
+Inserting time for the city Managua is 554503 nanoseconds
+Inserting time for the city Niamey is 523360 nanoseconds
+Inserting time for the city Abuja is 546448 nanoseconds
+Inserting time for the city Alofi is 653444 nanoseconds
+Inserting time for the city Saipan is 566807 nanoseconds
+Inserting time for the city Oslo is 501602 nanoseconds
+Inserting time for the city Muscat is 536400 nanoseconds
+Inserting time for the city Islamabad is 511517 nanoseconds
+Inserting time for the city Melekeok is 599134 nanoseconds
+Inserting time for the city Panama City is 677231 nanoseconds
+Inserting time for the city Port Moresby is 529525 nanoseconds
+Inserting time for the city Asuncion is 484970 nanoseconds
+Inserting time for the city Lima is 523928 nanoseconds
+Inserting time for the city Manila is 502286 nanoseconds
+Inserting time for the city Adamstown is 504154 nanoseconds
+Inserting time for the city Warsaw is 625310 nanoseconds
+Inserting time for the city Lisbon is 527042 nanoseconds
+Inserting time for the city San Juan is 453228 nanoseconds
+Inserting time for the city Doha is 466992 nanoseconds
+Inserting time for the city Bucharest is 480439 nanoseconds
+Inserting time for the city Moscow is 436784 nanoseconds
+Inserting time for the city Kigali is 438052 nanoseconds
+Inserting time for the city Gustavia is 508353 nanoseconds
+Inserting time for the city Jamestown is 459317 nanoseconds
+Inserting time for the city Basseterre is 490035 nanoseconds
+Inserting time for the city Castries is 585043 nanoseconds
+Inserting time for the city Saint-Pierre is 617535 nanoseconds
+Inserting time for the city Kingstown is 537257 nanoseconds
+Inserting time for the city Apia is 585837 nanoseconds
+Inserting time for the city San Marino is 478815 nanoseconds
+Inserting time for the city Sao Tome is 475602 nanoseconds
+Inserting time for the city Riyadh is 523266 nanoseconds
+Inserting time for the city Dakar is 560996 nanoseconds
+Inserting time for the city Belgrade is 530346 nanoseconds
+Inserting time for the city Victoria is 555953 nanoseconds
+Inserting time for the city Freetown is 657319 nanoseconds
+Inserting time for the city Singapore is 933102 nanoseconds
+Inserting time for the city Philipsburg is 1065996 nanoseconds
+Inserting time for the city Bratislava is 1157213 nanoseconds
+Inserting time for the city Ljubljana is 807777 nanoseconds
+Inserting time for the city Honiara is 677051 nanoseconds
+Inserting time for the city Mogadishu is 690792 nanoseconds
+Inserting time for the city Pretoria is 647363 nanoseconds
+Inserting time for the city Juba is 926832 nanoseconds
+Inserting time for the city Madrid is 980049 nanoseconds
+Inserting time for the city Colombo is 603326 nanoseconds
+Inserting time for the city Khartoum is 609148 nanoseconds
+Inserting time for the city Paramaribo is 615244 nanoseconds
+Inserting time for the city Longyearbyen is 554800 nanoseconds
+Inserting time for the city Mbabane is 509243 nanoseconds
+Inserting time for the city Stockholm is 473275 nanoseconds
+Inserting time for the city Bern is 558940 nanoseconds
+Inserting time for the city Damascus is 556770 nanoseconds
+Inserting time for the city Taipei is 466287 nanoseconds
+Inserting time for the city Dushanbe is 467763 nanoseconds
+Inserting time for the city Dar es Salaam is 470138 nanoseconds
+Inserting time for the city Bangkok is 465259 nanoseconds
+Inserting time for the city Dili is 448223 nanoseconds
+Inserting time for the city Lome is 461940 nanoseconds
+Inserting time for the city Nuku'alofa is 459848 nanoseconds
+Inserting time for the city Port of Spain is 422971 nanoseconds
+Inserting time for the city Tunis is 472362 nanoseconds
+Inserting time for the city Ankara is 421255 nanoseconds
+Inserting time for the city Ashgabat is 474562 nanoseconds
+Inserting time for the city Grand Turk is 424006 nanoseconds
+Inserting time for the city Funafuti is 411958 nanoseconds
+Inserting time for the city Kampala is 430147 nanoseconds
+Inserting time for the city Kyiv is 542776 nanoseconds
+Inserting time for the city Abu Dhabi is 516330 nanoseconds
+Inserting time for the city London is 487028 nanoseconds
+Inserting time for the city Washington is 476977 nanoseconds
+Inserting time for the city Montevideo is 424171 nanoseconds
+Inserting time for the city Tashkent is 389162 nanoseconds
+Inserting time for the city Port-Vila is 448273 nanoseconds
+Inserting time for the city Caracas is 423207 nanoseconds
+Inserting time for the city Hanoi is 416135 nanoseconds
+Inserting time for the city Charlotte Amalie is 447879 nanoseconds
+Inserting time for the city Mata-Utu is 460699 nanoseconds
+Inserting time for the city Sanaa is 409620 nanoseconds
+Inserting time for the city Lusaka is 436773 nanoseconds
+Inserting time for the city Harare is 428110 nanoseconds
+Inserting time for the city North Nicosia is 503994 nanoseconds
+Inserting time for the city Diego Garcia is 498594 nanoseconds
+Inserting time for the city Hargeisa is 21619840 nanoseconds
+Inserting time for the city King Edward Point is 1351493 nanoseconds
+Inserting time for the city Port-aux-Français is 1190092 nanoseconds
+Inserting time for the city Jerusalem is 1135165 nanoseconds
+Inserting time for the city Mariehamn is 1116539 nanoseconds
+Inserting time for the city Yaren is 907921 nanoseconds
+Inserting time for the city Marigot is 1425084 nanoseconds
+Inserting time for the city Atafu is 759698 nanoseconds
+Inserting time for the city El-Aaiún is 1330836 nanoseconds
+Inserting time for the city Kabul is 1353710 nanoseconds
+Inserting time for the city Tirana is 664108 nanoseconds
+Inserting time for the city Algiers is 728931 nanoseconds
+Inserting time for the city Pago Pago is 701858 nanoseconds
+Inserting time for the city Andorra la Vella is 677046 nanoseconds
+Inserting time for the city Luanda is 642110 nanoseconds
+Inserting time for the city The Valley is 1030220 nanoseconds
+Inserting time for the city Saint John's is 676279 nanoseconds
+Inserting time for the city Buenos Aires is 632533 nanoseconds
+Inserting time for the city Yerevan is 708533 nanoseconds
+Inserting time for the city Oranjestad is 625038 nanoseconds
+Inserting time for the city Canberra is 632322 nanoseconds
+Inserting time for the city Vienna is 1290227 nanoseconds
+Inserting time for the city Baku is 625934 nanoseconds
+Inserting time for the city Nassau is 587360 nanoseconds
+Inserting time for the city Manama is 694194 nanoseconds
+Inserting time for the city Dhaka is 620699 nanoseconds
+Inserting time for the city Bridgetown is 601688 nanoseconds
+Inserting time for the city Minsk is 599124 nanoseconds
+Inserting time for the city Brussels is 700265 nanoseconds
+Inserting time for the city Belmopan is 713080 nanoseconds
+Inserting time for the city Porto-Novo is 628418 nanoseconds
+Inserting time for the city Hamilton is 586179 nanoseconds
+Inserting time for the city Thimphu is 555074 nanoseconds
+Inserting time for the city La Paz is 731730 nanoseconds
+Inserting time for the city Sarajevo is 569329 nanoseconds
+Inserting time for the city Gaborone is 578784 nanoseconds
+Inserting time for the city Brasilia is 668088 nanoseconds
+Inserting time for the city Road Town is 573793 nanoseconds
+Inserting time for the city Bandar Seri Begawan is 633414 nanoseconds
+Inserting time for the city Sofia is 617504 nanoseconds
+Inserting time for the city Ouagadougou is 569568 nanoseconds
+Inserting time for the city Rangoon is 620488 nanoseconds
+Inserting time for the city Bujumbura is 650171 nanoseconds
+Inserting time for the city Phnom Penh is 649694 nanoseconds
+Inserting time for the city Yaounde is 576900 nanoseconds
+Inserting time for the city Ottawa is 618553 nanoseconds
+Inserting time for the city Praia is 629020 nanoseconds
+Inserting time for the city George Town is 557531 nanoseconds
+Inserting time for the city Bangui is 722359 nanoseconds
+Inserting time for the city N'Djamena is 987454 nanoseconds
+Inserting time for the city Santiago is 593464 nanoseconds
+Inserting time for the city Beijing is 614761 nanoseconds
+Inserting time for the city The Settlement is 615812 nanoseconds
+Inserting time for the city West Island is 668091 nanoseconds
+Inserting time for the city Bogota is 670772 nanoseconds
+Inserting time for the city Moroni is 608202 nanoseconds
+Inserting time for the city Kinshasa is 580090 nanoseconds
+Inserting time for the city Brazzaville is 570356 nanoseconds
+Inserting time for the city Avarua is 553492 nanoseconds
+Inserting time for the city San Jose is 681851 nanoseconds
+Inserting time for the city Yamoussoukro is 600314 nanoseconds
+Inserting time for the city Zagreb is 604648 nanoseconds
+Inserting time for the city Havana is 657856 nanoseconds
+Inserting time for the city Willemstad is 692150 nanoseconds
+Inserting time for the city Nicosia is 606169 nanoseconds
+Inserting time for the city Prague is 573710 nanoseconds
+Inserting time for the city Copenhagen is 578296 nanoseconds
+Inserting time for the city Djibouti is 503832 nanoseconds
+Inserting time for the city Roseau is 592751 nanoseconds
+Inserting time for the city Santo Domingo is 569595 nanoseconds
+Inserting time for the city Quito is 639306 nanoseconds
+Inserting time for the city Cairo is 565440 nanoseconds
+Inserting time for the city San Salvador is 598997 nanoseconds
+Inserting time for the city Malabo is 573112 nanoseconds
+Inserting time for the city Asmara is 514860 nanoseconds
+Inserting time for the city Tallinn is 516648 nanoseconds
+Inserting time for the city Addis Ababa is 676552 nanoseconds
+Inserting time for the city Stanley is 592355 nanoseconds
+Inserting time for the city Torshavn is 529187 nanoseconds
+Inserting time for the city Suva is 576724 nanoseconds
+Inserting time for the city Helsinki is 480053 nanoseconds
+Inserting time for the city Paris is 551276 nanoseconds
+Inserting time for the city Papeete is 571506 nanoseconds
+Inserting time for the city Libreville is 536347 nanoseconds
+Inserting time for the city Banjul is 549607 nanoseconds
+Inserting time for the city Tbilisi is 646777 nanoseconds
+Inserting time for the city Berlin is 560071 nanoseconds
+Inserting time for the city Accra is 836128 nanoseconds
+Inserting time for the city Gibraltar is 748588 nanoseconds
+Inserting time for the city Athens is 611889 nanoseconds
+Inserting time for the city Nuuk is 693137 nanoseconds
+Inserting time for the city Saint George's is 689414 nanoseconds
+Inserting time for the city Hagatna is 710517 nanoseconds
+Inserting time for the city Guatemala City is 570800 nanoseconds
+Inserting time for the city Saint Peter Port is 737544 nanoseconds
+Inserting time for the city Conakry is 876770 nanoseconds
+Inserting time for the city Bissau is 583443 nanoseconds
+Inserting time for the city Georgetown is 556257 nanoseconds
+Inserting time for the city Port-au-Prince is 689669 nanoseconds
+Inserting time for the city Vatican City is 565207 nanoseconds
+Inserting time for the city Tegucigalpa is 885112 nanoseconds
+Inserting time for the city Budapest is 690725 nanoseconds
+Inserting time for the city Reykjavik is 680542 nanoseconds
+Inserting time for the city New Delhi is 702223 nanoseconds
+Inserting time for the city Jakarta is 1419670 nanoseconds
+Inserting time for the city Tehran is 821112 nanoseconds
+Inserting time for the city Baghdad is 793958 nanoseconds
+Inserting time for the city Dublin is 739669 nanoseconds
+Inserting time for the city Douglas is 825002 nanoseconds
+Inserting time for the city Rome is 1002768 nanoseconds
+Inserting time for the city Kingston is 727641 nanoseconds
+Inserting time for the city Tokyo is 674506 nanoseconds
+Inserting time for the city Saint Helier is 587819 nanoseconds
+Inserting time for the city Amman is 651051 nanoseconds
+Inserting time for the city Astana is 659983 nanoseconds
+Inserting time for the city Nairobi is 646871 nanoseconds
+Inserting time for the city Tarawa is 579766 nanoseconds
+Inserting time for the city Pyongyang is 697416 nanoseconds
+Inserting time for the city Seoul is 614002 nanoseconds
+Inserting time for the city Pristina is 799645 nanoseconds
+Inserting time for the city Kuwait City is 651378 nanoseconds
+Inserting time for the city Bishkek is 569364 nanoseconds
+Inserting time for the city Vientiane is 482516 nanoseconds
+Inserting time for the city Riga is 695516 nanoseconds
+Inserting time for the city Beirut is 808028 nanoseconds
+Inserting time for the city Maseru is 880848 nanoseconds
+Inserting time for the city Monrovia is 705250 nanoseconds
+Inserting time for the city Tripoli is 1102377 nanoseconds
+Inserting time for the city Vaduz is 722690 nanoseconds
+Inserting time for the city Vilnius is 900476 nanoseconds
+Inserting time for the city Luxembourg is 660316 nanoseconds
+Inserting time for the city Skopje is 668167 nanoseconds
+Inserting time for the city Antananarivo is 628316 nanoseconds
+Inserting time for the city Lilongwe is 698630 nanoseconds
+Inserting time for the city Kuala Lumpur is 998432 nanoseconds
+Inserting time for the city Male is 711093 nanoseconds
+Inserting time for the city Bamako is 840710 nanoseconds
+Inserting time for the city Valletta is 590036 nanoseconds
+Inserting time for the city Majuro is 651739 nanoseconds
+Inserting time for the city Nouakchott is 851037 nanoseconds
+Inserting time for the city Port Louis is 646135 nanoseconds
+Inserting time for the city Mexico City is 539712 nanoseconds
+Inserting time for the city Palikir is 500345 nanoseconds
+Inserting time for the city Chisinau is 569418 nanoseconds
+Inserting time for the city Monaco is 700656 nanoseconds
+Inserting time for the city Ulaanbaatar is 630727 nanoseconds
+Inserting time for the city Podgorica is 635067 nanoseconds
+Inserting time for the city Plymouth is 564417 nanoseconds
+Inserting time for the city Rabat is 525975 nanoseconds
+Inserting time for the city Maputo is 467256 nanoseconds
+Inserting time for the city Windhoek is 564129 nanoseconds
+Inserting time for the city Kathmandu is 601246 nanoseconds
+Inserting time for the city Amsterdam is 738885 nanoseconds
+Inserting time for the city Noumea is 530578 nanoseconds
+Inserting time for the city Wellington is 446582 nanoseconds
+Inserting time for the city Managua is 515747 nanoseconds
+Inserting time for the city Niamey is 578806 nanoseconds
+Inserting time for the city Abuja is 606555 nanoseconds
+Inserting time for the city Alofi is 467207 nanoseconds
+Inserting time for the city Saipan is 584480 nanoseconds
+Inserting time for the city Oslo is 490449 nanoseconds
+Inserting time for the city Muscat is 556191 nanoseconds
+Inserting time for the city Islamabad is 474719 nanoseconds
+Inserting time for the city Melekeok is 452517 nanoseconds
+Inserting time for the city Panama City is 445825 nanoseconds
+Inserting time for the city Port Moresby is 481960 nanoseconds
+Inserting time for the city Asuncion is 467895 nanoseconds
+Inserting time for the city Lima is 587697 nanoseconds
+Inserting time for the city Manila is 551895 nanoseconds
+Inserting time for the city Adamstown is 567626 nanoseconds
+Inserting time for the city Warsaw is 536376 nanoseconds
+Inserting time for the city Lisbon is 483462 nanoseconds
+Inserting time for the city San Juan is 442878 nanoseconds
+Inserting time for the city Doha is 530313 nanoseconds
+Inserting time for the city Bucharest is 466409 nanoseconds
+Inserting time for the city Moscow is 435433 nanoseconds
+Inserting time for the city Kigali is 430154 nanoseconds
+Inserting time for the city Gustavia is 467710 nanoseconds
+Inserting time for the city Jamestown is 452253 nanoseconds
+Inserting time for the city Basseterre is 473790 nanoseconds
+Inserting time for the city Castries is 494000 nanoseconds
+Inserting time for the city Saint-Pierre is 460793 nanoseconds
+Inserting time for the city Kingstown is 453662 nanoseconds
+Inserting time for the city Apia is 502802 nanoseconds
+Inserting time for the city San Marino is 511957 nanoseconds
+Inserting time for the city Sao Tome is 456100 nanoseconds
+Inserting time for the city Riyadh is 521952 nanoseconds
+Inserting time for the city Dakar is 525257 nanoseconds
+Inserting time for the city Belgrade is 567194 nanoseconds
+Inserting time for the city Victoria is 577191 nanoseconds
+Inserting time for the city Freetown is 538086 nanoseconds
+Inserting time for the city Singapore is 628204 nanoseconds
+Inserting time for the city Philipsburg is 585728 nanoseconds
+Inserting time for the city Bratislava is 509500 nanoseconds
+Inserting time for the city Ljubljana is 502445 nanoseconds
+Inserting time for the city Honiara is 455750 nanoseconds
+Inserting time for the city Mogadishu is 533154 nanoseconds
+Inserting time for the city Pretoria is 493460 nanoseconds
+Inserting time for the city Juba is 487094 nanoseconds
+Inserting time for the city Madrid is 501413 nanoseconds
+Inserting time for the city Colombo is 463213 nanoseconds
+Inserting time for the city Khartoum is 442898 nanoseconds
+Inserting time for the city Paramaribo is 479027 nanoseconds
+Inserting time for the city Longyearbyen is 517882 nanoseconds
+Inserting time for the city Mbabane is 473362 nanoseconds
+Inserting time for the city Stockholm is 483753 nanoseconds
+Inserting time for the city Bern is 501002 nanoseconds
+Inserting time for the city Damascus is 491387 nanoseconds
+Inserting time for the city Taipei is 519613 nanoseconds
+Inserting time for the city Dushanbe is 652150 nanoseconds
+Inserting time for the city Dar es Salaam is 751341 nanoseconds
+Inserting time for the city Bangkok is 718144 nanoseconds
+Inserting time for the city Dili is 568962 nanoseconds
+Inserting time for the city Lome is 498559 nanoseconds
+Inserting time for the city Nuku'alofa is 459337 nanoseconds
+Inserting time for the city Port of Spain is 488007 nanoseconds
+Inserting time for the city Tunis is 516757 nanoseconds
+Inserting time for the city Ankara is 445289 nanoseconds
+Inserting time for the city Ashgabat is 542963 nanoseconds
+Inserting time for the city Grand Turk is 460244 nanoseconds
+Inserting time for the city Funafuti is 434727 nanoseconds
+Inserting time for the city Kampala is 452580 nanoseconds
+Inserting time for the city Kyiv is 529940 nanoseconds
+Inserting time for the city Abu Dhabi is 480251 nanoseconds
+Inserting time for the city London is 455023 nanoseconds
+Inserting time for the city Washington is 463212 nanoseconds
+Inserting time for the city Montevideo is 476816 nanoseconds
+Inserting time for the city Tashkent is 499647 nanoseconds
+Inserting time for the city Port-Vila is 451194 nanoseconds
+Inserting time for the city Caracas is 481003 nanoseconds
+Inserting time for the city Hanoi is 471341 nanoseconds
+Inserting time for the city Charlotte Amalie is 480070 nanoseconds
+Inserting time for the city Mata-Utu is 794484 nanoseconds
+Inserting time for the city Sanaa is 578672 nanoseconds
+Inserting time for the city Lusaka is 588371 nanoseconds
+Inserting time for the city Harare is 617524 nanoseconds
+Inserting time for the city North Nicosia is 487441 nanoseconds
+Inserting time for the city Diego Garcia is 576658 nanoseconds
