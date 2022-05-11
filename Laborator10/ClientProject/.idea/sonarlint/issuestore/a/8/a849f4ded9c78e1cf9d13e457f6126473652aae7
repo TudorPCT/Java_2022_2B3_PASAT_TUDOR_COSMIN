@@ -1,0 +1,4 @@
+
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜Ûâú
+}
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(Ûæ•øûÿÿÿÿ
