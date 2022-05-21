@@ -1,54 +1,51 @@
 package app.client;
 
-import app.server.Server;
+import app.client.commands.Commands;
+import app.client.commands.CommandsImpl;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 public class ClientThread extends Thread {
 
     private final Socket socket;
-    private final Commands commands = new CommandsImpl();
-    public ServerSocket serverSocket;
+    private ServerSocket serverSocket;
+    private TimeKeeper timeKeeper;
 
     public ClientThread(Socket socket, ServerSocket serverSocket) {
         this.socket = socket ;
         this.serverSocket = serverSocket;
+        this.timeKeeper = new TimeKeeper(this);
     }
 
     public void run () {
         try {
             BufferedReader in = new BufferedReader(
-            new InputStreamReader(socket.getInputStream()));
+                new InputStreamReader(socket.getInputStream()));
             String request = null;
-            PrintWriter out = new PrintWriter(socket.getOutputStream());
-
+            Commands commands = new CommandsImpl(socket, serverSocket);
+            timeKeeper.start();
             while(true) {
                 request = in.readLine();
-                if (request == null) {
-                    System.out.println("exit");
+                timeKeeper.extendTime();
+                if(!commands.executeCommand(request)) {
                     break;
-                } else if (request.equals("stop")) {
-                    serverSocket.close();
-                    String raspuns = "Server stopped";
-                    out.println(raspuns);
-                    out.flush();
-                } else {
-                    String raspuns = "Server received the request: " + request + "!";
-                    out.println(raspuns);
-                    commands.executeCommand(request);
-                    out.flush();
                 }
             }
         } catch (IOException e) {
             System.err.println("Communication error... " + e);
         } finally {
             try {
+                System.out.println(this.getId()+" disconnected");
                 socket.close();
             } catch (IOException e) { System.err.println (e); }
-        } }
+        }
+    }
+
+    public Socket getSocket() {
+        return socket;
+    }
 }

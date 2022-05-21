@@ -1,5 +1,5 @@
 
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÓßĞùÿÿÿÿ
-?
-java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Â—Œˆ
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÓßĞùÿÿÿÿ8Ğïî“0
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8×ïî“0
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Â—Œˆ8Ùïî“0

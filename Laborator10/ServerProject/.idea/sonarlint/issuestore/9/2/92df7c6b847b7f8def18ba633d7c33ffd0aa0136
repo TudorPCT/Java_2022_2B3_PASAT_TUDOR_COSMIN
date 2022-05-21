@@ -1,9 +1,15 @@
 
-U
-java:S1854":Remove this useless assignment to local variable "server".(ë‡õ¸ÿÿÿÿÿ
-‚
-java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø
-F
-java:S1481"+Remove this unused "server" local variable.(ë‡õ¸ÿÿÿÿÿ
-=
-java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+\
+java:S1854#":Remove this useless assignment to local variable "server".(ë‡õ¸ÿÿÿÿÿ8ÂÍŸ‹0
+‰
+java:S1130""lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8ËÍŸ‹0
+M
+java:S1481#"+Remove this unused "server" local variable.(ë‡õ¸ÿÿÿÿÿ8ÎÍŸ‹0
+Q
+java:S1128"5Remove this unused import 'app.client.entity.Client'.(êö‚S8ÏÍŸ‹0
+e
+java:S1128"CRemove this unused import 'app.client.repository.ClientRepository'.(¤šÈùüÿÿÿÿ8ÏÍŸ‹0
+~
+java:S1104"\Make clientThreadList a static final constant or non-public and provide accessors if needed.(æââíÿÿÿÿÿ8ÑÍŸ‹0
+D
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8åÍŸ‹0

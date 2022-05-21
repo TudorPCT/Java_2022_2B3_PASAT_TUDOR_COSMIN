@@ -1,4 +1,10 @@
 
-o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜Ûâú
-}
-java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(Ûæ•øûÿÿÿÿ
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜Ûâú8…œšâŒ0
+„
+java:S4087!"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(Ûæ•øûÿÿÿÿ8œšâŒ0
+X
+java:S1128"6Remove this unused import 'java.net.ConnectException'.(éâ¿Šüÿÿÿÿ8œœšâŒ0
+W
+java:S1128"5Remove this unused import 'java.net.SocketException'.(¼„™€ûÿÿÿÿ8œšâŒ0
+M
+java:S1128	"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8œšâŒ0
