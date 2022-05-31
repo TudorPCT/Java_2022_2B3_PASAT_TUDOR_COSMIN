@@ -1,14 +1,0 @@
-
-L
-java:S3740"/Provide the parametrized type for this generic.(îàòõ8ˆÿˆ·0
-F
-java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8ÀÎ­·0
-X
-java:S1128";Remove this unused import 'java.net.MalformedURLException'.(ªËŞˆ8ÃÎ­·0
-K
-java:S1128")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8ÅÎ­·0
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ÆÎ­·0
-m
-java:S2095
-"KUse try-with-resources or close this "MyClassloader" in a "finally" clause.(ËÌöÍûÿÿÿÿ8’­‹·0

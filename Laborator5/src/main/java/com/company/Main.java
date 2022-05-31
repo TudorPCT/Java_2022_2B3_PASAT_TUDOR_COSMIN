@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
 	    Main lab5 = new Main();
       //  lab5.compulsory();
-        lab5.homework();
+      //  lab5.homework();
 
     }
 
